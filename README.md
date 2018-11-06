@@ -46,6 +46,8 @@ Construire une architecture d’application prête pour le cloud nécessite de p
 2. conception 
 Ideé de base basé sur uml
 Diagrame de classe et diagrame de cas d’utilisation 
+![diagram](https://user-images.githubusercontent.com/44177711/48098060-e93ec700-e21b-11e8-9d28-161bb694442e.jpg)
+
  
 
 3. outils :
