@@ -7,6 +7,7 @@ Sommaire :
 1.	Description
 2.	conception
 3.	Outils 
+
 1.description : Tout développeur d’applications informatiques comprend que les applications conçues spécifiquement pour la plate-forme sur laquelle elles seront exécutées seront plus performantes, plus résilientes et plus faciles à gérer. En effet, le développement pour les plateformes cloud public ou privé ne fait pas exception.
 Cependant, peu de gens comprennent exactement comment concevoir et construire une architecture d’application cloud pour les cloud privés ou publics. Ce manque de compétences et d’expérience a conduit à des applications mal conçues pour les plates-formes basées sur le cloud. Par conséquent, ces applications ne fournissent pas la valeur attendue par les entreprises sur la plate-forme cloud.
 Voici comment créer une application prête pour le cloud et les concepts d’architecture d’application dont vous aurez besoin pour réussir. Le processus présenté ci-dessous représente une approche étape par étape qui mélange les concepts de développement de logiciels traditionnels et passe en revue les nouveautés du cloud. C’est une collection de meilleures pratiques, de concepts et de procédures pour réussir.
