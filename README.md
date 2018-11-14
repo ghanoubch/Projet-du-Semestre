@@ -5,8 +5,9 @@ Zakaria maouedji & Bechiri abdelghani & kouira noufel
 
 Sommaire : 
 1.	Description
-2.	conception
-3.	Outils 
+2.Architecture globale de l'application (service web)
+3.conception
+4.Outils 
 
 1.description : Tout développeur d’applications informatiques comprend que les applications conçues spécifiquement pour la plate-forme sur laquelle elles seront exécutées seront plus performantes, plus résilientes et plus faciles à gérer. En effet, le développement pour les plateformes cloud public ou privé ne fait pas exception.
 Cependant, peu de gens comprennent exactement comment concevoir et construire une architecture d’application cloud pour les cloud privés ou publics. Ce manque de compétences et d’expérience a conduit à des applications mal conçues pour les plates-formes basées sur le cloud. Par conséquent, ces applications ne fournissent pas la valeur attendue par les entreprises sur la plate-forme cloud.
@@ -44,6 +45,40 @@ Votre objectif principal est de concevoir la sécurité dans l’application et 
 
 Construire une architecture d’application prête pour le cloud nécessite de prêter attention à quelques nouvelles choses, mais la plupart des concepts traditionnels sont toujours importants, tels que la conception sonore, les tests et l’apprentissage de vos erreurs. La plupart des développeurs qui déploient des applications sur des plates-formes cloud public ou privé feront des erreurs, mais tant qu’ils reconnaîtront, corrigeront et apprendront de ces erreurs, ils seront sur la bonne voie pour trouver un moyen plus efficace afin de construire des applications dans le cloud.
 
+2.Architecture globale de l'application (service web)
+Architecture d'un service Web :
+Les services Web reprennent la plupart des idées et des principes du Web (HTTP, XML), et les appliquent à des interactions entre machines. Comme pour le World Wide Web, les services Web communiquent via un ensemble de technologies fondamentales qui partagent une architecture commune. Ils ont été conçus pour être réalisés sur de nombreux systèmes développés et déployés de façon indépendante. Les technologies utilisées par les services Web sont HTTP, WSDL, REST, XML-RPC, SOAP et UDDI.
+REST
+
+REST (Representational State Transfer) est une architecture de services Web. Élaborée en l'an 2000 par Roy Fiedling, l'un des créateurs du protocole HTTP, du serveur Apache HTTPd et d'autres travaux fondamentaux, REST est une manière de construire une application pour les systèmes distribués comme le World Wide Web.
+XML-RPC
+
+XML-RPC est un protocole simple utilisant XML pour effectuer des messages RPC. Les requêtes sont écrites en XML et envoyées via HTTP POST. Les requêtes sont intégrées dans le corps de la réponse HTTP. XML-RPC est indépendant de la plate-forme, ce qui lui permet de communiquer avec diverses applications. Par exemple, un client Java peut parler de XML-RPC à un PerlServer ! o_O
+SOAP
+
+SOAP (Simple object Access Protocol) est un protocole standard de communication. C'est l'épine dorsale du système d'interopérabilité. SOAP est un protocole décrit en XML et standardisé par le W3C. Il se présente comme une enveloppe pouvant être signée et pouvant contenir des données ou des pièces jointes.
+Il circule sur le protocole HTTP et permet d'effectuer des appels de méthodes à distance.
+WSDL
+
+WSDL (Web Services Description Language) est un langage de description standard. C'est l'interface présentée aux utilisateurs. Il indique comment utiliser le service Web et comment interagir avec lui. WSDL est basé sur XML et permet de décrire de façon précise les détails concernant le service Web tels que les protocoles, les ports utilisés, les opérations pouvant être effectuées, les formats des messages d'entrée et de sortie et les exceptions pouvant être envoyées.
+UDDI
+
+UDDI (Universal Description, Discovery and Integration) est un annuaire de services. Il fournit l'infrastructure de base pour la publication et la découverte des services Web. UDDI permet aux fournisseurs de présenter leurs services Web aux clients.
+
+Les informations qu'il contient peuvent être séparées en trois types :
+
+    les pages blanches qui incluent l'adresse, le contact et les identifiants relatifs au service Web ;
+
+    les pages jaunes qui identifient les secteurs d'affaires relatifs au service Web ;
+
+    les pages vertes qui donnent les informations techniques.
+Fonctionnement des services Web :
+Le fonctionnement des services Web s'articule autour de trois acteurs principaux illustrés par le schéma suivant :
+
+![fonctionnement des service web](https://user-images.githubusercontent.com/44177711/48481049-7d0c2680-e80c-11e8-8de9-086be5b8bbfb.jpg)
+
+
+
 2. conception 
 Ideé de base basé sur uml
 Diagrame de classe et diagrame de cas d’utilisation 
@@ -58,11 +93,29 @@ Diagrame de classe et diagrame de cas d’utilisation
 
 
 
+Eclipse est un projet, décliné et organisé en un ensemble de sous-projets de développements logiciels, de la fondation Eclipse visant à développer un environnement de production de logiciels libre qui soit extensible, universel et polyvalent, en s'appuyant principalement sur Java.
+
+Son objectif est de produire et fournir des outils pour la réalisation de logiciels, englobant les activités de programmation (notamment environnement de développement intégré et frameworks) mais aussi d'AGL recouvrant modélisation, conception, test, gestion de configuration, reporting… Son EDI, partie intégrante du projet, vise notamment à supporter tout langage de programmation à l'instar de Microsoft Visual Studio.
+
+
 2.openshift
  ![openshift](https://user-images.githubusercontent.com/44177711/48098430-ff00bc00-e21c-11e8-834c-d1ca585078f1.jpg)
 
 
+OpenShift est un service de plate-forme en tant que service de la société Red Hat.
+
+Le logiciel est libre, son projet amont s'appelle OpenShift Origin3. Une version appelée OpenShift Enterprise est proposée pour l'hébergement en site propre ou en cloud computing4.
+
+OpenShift supporte également des applications web, si elles mêmes sont supportées par Red Hat Enterprise Linux.
+
+
+
 3. my sql
 ![mysql](https://user-images.githubusercontent.com/44177711/48098478-2f485a80-e21d-11e8-832d-c72bd050bae9.jpg)
+
+
+
+
+Oracle SQL Developer est un environnement de développement intégré (EDI) multi-plateforme, fourni gratuitement par Oracle Corporation et utilisant la technologie Java (Java Development Kit). C'est un outil graphique permettant d'interroger des bases de données Oracle à l'aide du langage SQL.
 
  
