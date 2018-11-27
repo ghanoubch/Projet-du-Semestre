@@ -3,13 +3,14 @@ Rapport 0 mini projet
 Zakaria maouedji & Bechiri abdelghani & kouira noufel
 
 
-Sommaire : 
+# Sommaire : 
 1.	Description
 2.Architecture globale de l'application (service web)
 3.conception
 4.Outils 
 
-1.description : Tout développeur d’applications informatiques comprend que les applications conçues spécifiquement pour la plate-forme sur laquelle elles seront exécutées seront plus performantes, plus résilientes et plus faciles à gérer. En effet, le développement pour les plateformes cloud public ou privé ne fait pas exception.
+# 1.description : 
+Tout développeur d’applications informatiques comprend que les applications conçues spécifiquement pour la plate-forme sur laquelle elles seront exécutées seront plus performantes, plus résilientes et plus faciles à gérer. En effet, le développement pour les plateformes cloud public ou privé ne fait pas exception.
 Cependant, peu de gens comprennent exactement comment concevoir et construire une architecture d’application cloud pour les cloud privés ou publics. Ce manque de compétences et d’expérience a conduit à des applications mal conçues pour les plates-formes basées sur le cloud. Par conséquent, ces applications ne fournissent pas la valeur attendue par les entreprises sur la plate-forme cloud.
 Voici comment créer une application prête pour le cloud et les concepts d’architecture d’application dont vous aurez besoin pour réussir. Le processus présenté ci-dessous représente une approche étape par étape qui mélange les concepts de développement de logiciels traditionnels et passe en revue les nouveautés du cloud. C’est une collection de meilleures pratiques, de concepts et de procédures pour réussir.
 1. Concevoir l’application comme une collection de services
@@ -77,13 +78,14 @@ Le fonctionnement des services Web s'articule autour de trois acteurs principaux
 
 ![fonctionnement des service web](https://user-images.githubusercontent.com/44177711/48481049-7d0c2680-e80c-11e8-8de9-086be5b8bbfb.jpg)
 
+# MVC 
 Modèle – vue – contrôleur est un modèle architectural couramment utilisé pour développer des interfaces utilisateur qui divise une application en trois parties interconnectées. Ceci est fait pour séparer les représentations internes d'informations des manières dont les informations sont présentées à l'utilisateur et acceptées par celui-ci.  Le modèle de conception MVC dissocie ces composants principaux, ce qui permet une réutilisation efficace du code et un développement parallèle.
 
 
 ![c](https://user-images.githubusercontent.com/44177711/49113240-4e269380-f295-11e8-91f1-c810a02d07d3.png)
 
 
-2. conception 
+# 2. conception 
 Ideé de base basé sur uml
  
 ![a](https://user-images.githubusercontent.com/44177711/49110109-d9e7f200-f28c-11e8-902b-c60ff329634b.png)
@@ -91,7 +93,7 @@ Ideé de base basé sur uml
 
  
 
-3. outils :
+ # 3. outils :
 1-Spring tools Suite 4 
 
 
@@ -103,7 +105,7 @@ Spring Tools 4 est la nouvelle génération d’outils Spring pour votre environ
 
 
 
-2-eclipse 
+# 2-eclipse 
 ![eclips](https://user-images.githubusercontent.com/44177711/48098283-8ef23600-e21c-11e8-95bc-7e9d0950d93e.jpg)
 
 
@@ -113,7 +115,7 @@ Eclipse est un projet, décliné et organisé en un ensemble de sous-projets de 
 Son objectif est de produire et fournir des outils pour la réalisation de logiciels, englobant les activités de programmation (notamment environnement de développement intégré et frameworks) mais aussi d'AGL recouvrant modélisation, conception, test, gestion de configuration, reporting… Son EDI, partie intégrante du projet, vise notamment à supporter tout langage de programmation à l'instar de Microsoft Visual Studio.
 
 
-3-openshift
+# 3-openshift
  ![openshift](https://user-images.githubusercontent.com/44177711/48098430-ff00bc00-e21c-11e8-834c-d1ca585078f1.jpg)
 
 
@@ -125,7 +127,7 @@ OpenShift supporte également des applications web, si elles mêmes sont support
 
 
 
-4-my sql
+# 4-my sql
 ![mysql](https://user-images.githubusercontent.com/44177711/48098478-2f485a80-e21d-11e8-832d-c72bd050bae9.jpg)
 
 
