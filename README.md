@@ -77,6 +77,10 @@ Le fonctionnement des services Web s'articule autour de trois acteurs principaux
 
 ![fonctionnement des service web](https://user-images.githubusercontent.com/44177711/48481049-7d0c2680-e80c-11e8-8de9-086be5b8bbfb.jpg)
 
+Modèle – vue – contrôleur est un modèle architectural couramment utilisé pour développer des interfaces utilisateur qui divise une application en trois parties interconnectées. Ceci est fait pour séparer les représentations internes d'informations des manières dont les informations sont présentées à l'utilisateur et acceptées par celui-ci.  Le modèle de conception MVC dissocie ces composants principaux, ce qui permet une réutilisation efficace du code et un développement parallèle.
+
+
+![c](https://user-images.githubusercontent.com/44177711/49113240-4e269380-f295-11e8-91f1-c810a02d07d3.png)
 
 
 2. conception 
