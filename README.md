@@ -25,22 +25,34 @@ Avec un E-mail  Facultative pour  recevoir le fichier traité dans son mail
 # 2. mécanismes de traitement : 
 
 1.	La convertion : 
+
 A l’aide d’une web methode d’un web service , qui comporte des bebliothéque de convertion 
 
 org.apache.poi.xwpf.converter.pdf.PdfConverter; 
-org.apache.poi.xwpf.converter.pdf.PdfOptions;  
-org.apache.poi.xwpf.usermodel.XWPFDocument;  
+
+org.apache.poi.xwpf.converter.pdf.PdfOptions; 
+
+org.apache.poi.xwpf.usermodel.XWPFDocument; 
+
 2.	L’envoi de mail : 
 A l’aide d’une web methode de meme web service , qui comporte aussi des bébliotheque de Send Mail 
 
 import java.io.InputStream;
+
 import java.io.OutputStream;
+
 import java.util.Date;
+
 import java.util.logging.Level;
+
 import java.util.logging.Logger;
+
 import javax.mail.internet.InternetAddress;
+
 import javax.mail.internet.MimeBodyPart;
+
 import javax.mail.internet.MimeMessage;
+
 import javax.mail.internet.MimeMultipart;
 
 
