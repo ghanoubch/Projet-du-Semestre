@@ -1,15 +1,15 @@
-####                                                   Projet-du-Semestre
+# Projet-du-Semestre
 Rapport 0 mini projet
 Zakaria maouedji & Bechiri abdelghani & kouira noufel
 
 
-##"                                                       Sommaire : 
+# Sommaire : 
 
-# 1.introduction
+## 1.introduction
 
-# 2.mecanisme de traitement 
+## 2.mecanisme de traitement 
 
-# 3.Outils utilisé pour le developement et deployment 
+## 3.Outils utilisé pour le developement et deployment 
 
 # 1.introduction: 
 on resume notre travail dans la structure suivante :
