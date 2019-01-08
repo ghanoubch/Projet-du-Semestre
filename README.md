@@ -35,6 +35,7 @@ org.apache.poi.xwpf.converter.pdf.PdfOptions;
 org.apache.poi.xwpf.usermodel.XWPFDocument; 
 
 2.	L’envoi de mail : 
+
 A l’aide d’une web methode de meme web service , qui comporte aussi des bébliotheque de Send Mail 
 
 import java.io.InputStream;
