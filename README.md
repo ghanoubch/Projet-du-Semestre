@@ -5,7 +5,9 @@ Zakaria maouedji & Bechiri abdelghani & kouira noufel
 
 ## Sommaire : 
 #1.introduction
+
 #2.mecanisme de traitement 
+
 #3.Outils utilisé pour le developement et deployment 
 
 # 1.introduction: 
